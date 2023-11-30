@@ -1,0 +1,16 @@
+body {
+    background-color: whitesmoke;
+  }
+  h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 200%;
+    border: 2px solid black;
+    padding:20px;
+    margin:30px;
+  }
+  p {
+    color: red;
+    font-family: sans-serif;
+    font-size: 160%;
+  }
