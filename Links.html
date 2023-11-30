@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The target Attribute</h1>
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a> 
+<p>If target="_blank", the link will open in a new browser window or tab.</p>
+
+<h2>Absolute URLs</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+
+<h2>Image as a Link</h2>
+<p>The image below is a link. Try to click on it.</p>
+<a href="default.asp"><img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+<a href="mailto:someone@example.com">Send email</a>
+<p>Click the button to go to the HTML tutorial.</p>
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+<h2>Link Titles</h2>
+<p>The title attribute specifies extra information about an element.<br> The information is most often shown as a tooltip text when the mouse moves over the element.</p>
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+<p><a href="/html/default.asp">HTML tutorial</a></p>
+
+<h2>HTML Image</h2>
+<img src="pic_Trulli.jpg" alt="Trulli" width="500" height="333">
+<p><img src="img_chania.jpg" alt="flowers in chania"></p>
+<p><img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com"></p>
+
+<p>HTML allows moving images:</p>
+<img src="programming.gif" alt="Computer man" style="width:48px;height:48px;">
+
+<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+    The image will float to the right of the text.</p>
+    
+    <p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+    The image will float to the left of the text.</p>
+
+<h2>Image Maps</h2>
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>    
+
+</body>
+</html>
