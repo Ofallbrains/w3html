@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire|neon">
+  <script src="https://kit.fontawesome.com/b709f895a1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <style>
     body{
       background-image: url("img.jpg");
@@ -17,21 +19,24 @@
       font-style: italic;
       font-weight: bold;
       font-variant: small-caps;
-      font-size: 40px;
+      font-size: 25px;
       border-style: solid;
       border-width: 10px;
       border-color: blue;
       border-radius: 10px;
       width: 300px;
+      height: 80px;
       margin: 20px;
+      padding: 5px;
     }
     #para2{
       text-align: center;
       color: green;
-      font-size: 40px;
-      padding: 2px;
-      margin: 25px;
-      border-width: 5px;
+      font-size: 30px;
+      padding: 10px;
+      margin: 10px;
+      width: 300px;
+      border-width: 4px;
       border-color: brown;
     }
     h1.center{
@@ -45,7 +50,8 @@
     p.large{
       text-align: justify;
       letter-spacing: 1px;
-      line-height: 0.9;
+      line-height: 0.8;
+      height: 55px;
       font-size: 25px;
       color: green;
       margin: 15px;
@@ -57,27 +63,35 @@
     }
     p{
       width: 320px;
-      height: 50px;
-      padding: 10px;
+      height: 80px;
+      padding: 5px;
       border: 5px solid gray;
-      margin: 0;
+      margin: 5px;
       color: white;
     }
     div {
-      font-size: 20px;
+      font-size: 15px;
       border-radius: 10px;
       background-color: lightblue;
-      height: 100px;
-      padding: 25px;
+      height: 150px;
+      padding: 30px;
       width: 300px;
-      border: 15px solid red;
-      padding: 50px;
+      border: 5px solid red;
       margin: 20px;
 } 
 h1.font-effect-fire, .font-effect-neon{
   font-family: "Sofia", sans-serif;
   font-size: 50px;
   text-align: center;
+}
+
+h2{
+  color: white;
+}
+h3{
+  font-size: 15px;
+  color: aliceblue;
+  margin: 5px;
 }
   </style>
 </head>
@@ -97,5 +111,18 @@ a bottom margin of 100px, and a left margin of 80px.</div>
 <p>The picture above is 350px wide. The total width of this element is also 350px. 
 The total height of this element is 80px.</p>
 
+<h3>Some Font Awesome icons</h3>
+<i class="fas fa-cloud" style="font-size: 24px;color:lightblue;"></i>
+<i class="fas fa-heart" style="font-size: 24px;color:red;"></i>
+<i class="fas fa-car" style="font-size: 24px;color:maroon;"></i>
+<i class="fas fa-file" style="font-size: 24px;color:black;"></i>
+<i class="fas fa-bars" style="font-size: 24px;color: wheat;"></i>
+
+<h3>Some Bootstrap icons:</h3>
+<i class="glyphicon glyphicon-cloud" style="font-size: 24px;color: blue;"></i>
+<i class="glyphicon glyphicon-remove" style="font-size: 24px;color: red;"></i>
+<i class="glyphicon glyphicon-user" style="font-size: 24px;color:black;"></i>
+<i class="glyphicon glyphicon-envelope" style="font-size: 24px;"></i>
+<i class="glyphicon glyphicon-thumbs-up" style="font-size: 24px;"></i>
 </body>
 </html>
