@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
   <style>
     body{
       background-image:url("img.jpg");
@@ -14,6 +15,9 @@
       text-align: center;
       color: red;
       font-style: italic;
+      font-weight: bold;
+      font-variant: small-caps;
+      font-size: 40px;
       border-style: solid;
       border-width: 10px;
       border-color: blue;
@@ -24,6 +28,7 @@
     #para2{
       text-align: center;
       color: green;
+      font-size: 40px;
       padding: 2px;
       margin: 25px;
       border-width: 5px;
@@ -41,7 +46,7 @@
       text-align: justify;
       letter-spacing: 1px;
       line-height: 0.9;
-      font-size: 200%;
+      font-size: 25px;
       color: green;
       margin: 15px;
       border: 1px solid black;
@@ -58,6 +63,7 @@
       margin: 0;
     }
     div {
+      font-size: 20px;
       border-radius: 10px;
       background-color: lightblue;
       height: 100px;
@@ -67,10 +73,16 @@
       padding: 50px;
       margin: 20px;
 } 
+h1.font-effect-fire{
+  font-family: "Sofia", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
   </style>
 </head>
 <body>
 <h1 class="center">Red and center-aligned heading</h1>
+<h1 class="font-effect-fire">Sofia on Fire</h1>
 <p class="center large">Every paragraph will be affected.</p>
 <p id="para1">Me too!</p>
 <p id="para2">And me!</p>
