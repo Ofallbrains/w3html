@@ -14,20 +14,39 @@
       text-align: center;
       color: red;
       border-style: solid;
-      border-width: 25px 10px 4px 35px;
+      border-width: 10px;
       border-color: blue;
-      border-radius: 12px;
+      border-radius: 10px;
+      width: 300px;
+      margin: 20px;
     }
     #para2{
       text-align: center;
       color: green;
+      padding: 2px;
+      margin: 25px;
+      border-width: 5px;
+      border-color: brown;
     }
-    .center {
+    p.center {
       text-align: center;
       color: black;
+      margin: 15px;
+      border: 1px solid black;
+      outline-style: solid;
+      outline-color: red;
+      outline-width: thick;
+
     }
     p.large{
       font-size: 200%;
+    }
+    p{
+      width: 320px;
+      height: 50px;
+      padding: 10px;
+      border: 5px solid gray;
+      margin: 0;
     }
     div {
   border-radius: 10px;
@@ -43,7 +62,7 @@
 </head>
 <body>
 <h1 class="center">Red and center-aligned heading</h1>
-<p class="center large">Every paragraph will be affected by the style.</p>
+<p class="center large">Every paragraph will be affected.</p>
 <p id="para1">Me too!</p>
 <p id="para2">And me!</p>
 <div>This div element has a top margin of 100px, a right margin of 150px,<br> 
