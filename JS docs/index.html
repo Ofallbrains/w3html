@@ -3,14 +3,28 @@
 
 <body>
 
-    <h1>My First Web Page</h1>
-    <p>My First Paragraph</p>
+    <h2>JavaScript Statements</h2>
 
+    <p>JavaScript code blocks are written between { and }</p>
+
+    <button type="button" onclick="myFunction()">Click Me!</button>
+
+    <p id="demo1"></p>
+    <p id="demo2"></p>
     <p id="demo"></p>
 
     <script>
-        document.getElementById("demo").innerHTML = 5 + 6;
+        function myFunction() {
+            document.getElementById("demo1").innerHTML = "Hello Dolly!";
+            document.getElementById("demo2").innerHTML = "How are you?";
+        }
+
+        let x;
+        x = 8;
+        document.getElementById("demo").innerHTML = x;
+        document.getElementById("demo").innerHTML = (5 + 6) * 10;
     </script>
+
 
 </body>
 
