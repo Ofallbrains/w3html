@@ -15,6 +15,8 @@
     <p id="demo"></p>
     <p id="demo4"></p>
     <p id="demo5"></p>
+    <p id="my mix"></p>
+    <p id="name"></p>
 
     <script>
         function myFunction() {
@@ -30,10 +32,18 @@
         let lastname, lastName;
         lastName = "Doe";
         lastname = "Peterson";
+        const price1 = 5;
+        const price2 = 6;
+        let total = price1 + price2;
+        let carName = "Volvo";
+        carName = "Saab";
+
         document.getElementById("demo3").innerHTML = x;
         document.getElementById("demo").innerHTML = (5 + 6) * 10;
         document.getElementById("demo4").innerHTML = "The value of y is: " + y;
         document.getElementById("demo5").innerHTML = lastname + " " + lastName;
+        document.getElementById("my mix").innerHTML = "The total is: " + total;
+        document.getElementById("name").innerHTML = carName;
     </script>
 
 
